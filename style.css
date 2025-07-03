@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    padding: 10px 50px;
+    color: rgb(74, 74, 74);
+    background-color: rgb(249, 249, 180);
+    opacity: 0.6;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 50;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding-inline-start: 0;
+}
+
+.header-menu li {
+    padding: 0 10px;
+}
+.header-menu li:hover {
+    cursor: pointer;
+    color: rgb(138, 192, 208);
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(138, 192, 208);
+}
+
+.intro-section {
+    height: 100%;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pofol-section {
+    height: 90%;
+    text-align: center;
+}
+
+.project-intro {
+    margin-top: 100px;
+}
+
+.project-list {
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-card {
+    padding: 10px 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
