@@ -57,7 +57,6 @@ a {
 
 .tech-img{
   display: flex;
-  justify-content: row;
   align-items: center;
 }
 
