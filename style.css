@@ -109,6 +109,12 @@ a {
   text-align: center;
 }
 
+.tech-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .tech-icons img {
   width: 35px;
   height: 35px;
