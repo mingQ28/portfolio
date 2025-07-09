@@ -17,10 +17,10 @@ body {
 
 .header {
   padding: 10px 50px;
-  color: rgb(74, 74, 74);
+  color: rgba(66, 66, 66);
+  opacity: 0.9;
   /* background-color: rgb(249, 249, 180); */
   background-color: rgb(255, 255, 255);
-  opacity: 0.6;
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -144,7 +144,7 @@ a {
   margin: 0 10px;
 }
 
-.pofol-section {
+.project-section {
   height: 90%;
   text-align: center;
   margin-top: 150px;
@@ -182,13 +182,15 @@ a {
 }
 
 .footer {
-  background-color: rgb(245, 244, 244);
+  /* background-color: rgb(245, 244, 244); */
+  border-top: 1px solid black;
   color: rgb(74, 74, 74);
   padding: 10px 100px;
-  height: 100px;
+  height: 130px;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
