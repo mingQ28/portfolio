@@ -28,6 +28,11 @@ body {
   right: 0;
   position: fixed;
   z-index: 50;
+  transform: initial;
+}
+
+.header.scrollDown {
+  transform: translate(0, -160px);
 }
 
 .nav-menu {

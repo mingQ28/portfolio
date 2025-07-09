@@ -1,3 +1,4 @@
+// typing animation
 const typingText =  document.querySelector('.typing-text') // 출력할 위치
 const blink =  document.querySelector('.blink') // 커서
 
@@ -37,6 +38,8 @@ window.addEventListener('scroll', () => { // 스크롤 이벤트 설정된 영�
     }    
 });
 
+
+// 버튼 클릭 시 해당 영역의 위치로 스크롤 이동
 // 섹션 요소
 const sections = [
     document.querySelector('.home-section'),
@@ -65,4 +68,14 @@ navBtns.forEach( (item, index) => {
 
         window.scrollTo({ top: targetTop, behavior: 'smooth'});
     });
+});
+
+
+// 스크롤 내릴 때는 헤더 안 보이고 올릴 때 헤더 보이도록
+
+let prevScrollTop = 0;
+window.addEventListener('scroll', (e) => {
+    const nextScrollTop = window.scrollY;
+    const scrollUp = scrollY < prevScrollTop;
+    
 });
