@@ -10,6 +10,11 @@ body {
   display: none;
 }
 
+
+* {  /* width가 padding에 밀려 넘치치 않도록 */
+  box-sizing: border-box;
+}
+
 .header {
   padding: 10px 50px;
   color: rgb(74, 74, 74);
@@ -159,4 +164,27 @@ a {
 .project-title {
   font-size: 1.3em;
   margin: 10px;
+}
+
+.footer {
+  background-color: rgb(245, 244, 244);
+  color: rgb(74, 74, 74);
+  padding: 10px 30px;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footer-info {
+  width: 100%;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.footer-info-left p{
+  margin: 2px 0;
 }
