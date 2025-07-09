@@ -50,8 +50,12 @@ a {
   color: inherit;
 }
 
-.header a:hover {
+.nav-menu > a:hover {
   color: rgb(138, 192, 208);
+}
+
+.github-link:hover {
+  text-decoration: underline;
 }
 
 .home-section {
