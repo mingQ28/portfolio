@@ -20,7 +20,7 @@ function typing() {
         }
         else{
             clearInterval(interValid);
-            blink.classList.add('blink-animate');
+            blink.classList.add('blink');
             typingFinished = true;
         }
     }, 100)
@@ -33,7 +33,7 @@ window.addEventListener('scroll', () => { // 스크롤 이벤트 설정된 영�
         i = 0;
         typingStarted = false;
         typingFinished = false;
-        blink.classList.remove('blink-animate');
+        blink.classList.remove('blink');
         typing();
     }    
 });
